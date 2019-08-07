@@ -23,6 +23,23 @@ const mockQuests = [
     ]
   },
   {
+    id: "123ABC",
+    color: "red",
+    title: "My Second Quest",
+    challenges: [
+      {
+        id: "AB577D",
+        isCompleted: true,
+        message: "Apply for jobs"
+      },
+      {
+        id: "DE575E",
+        isCompleted: false,
+        message: "Learn SASS"
+      }
+    ]
+  },
+  {
     id: "et44trdt5",
     color: "green",
     title: "My Third Quest",
